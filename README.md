@@ -5,16 +5,17 @@ Fully customizable installer(可以完全自定义的安装程序)
 > [!NOTE]
 > 首先，开门见山，说一下如何自定义
 
-下载后解压压缩包,会得到几个文件,其中install.exe是主程序,install文件夹存放要安装的文件,下面是对应表,(区分大小写)带*的是文件夹,带-的可省略
+下载后解压压缩包,会得到几个文件,其中install2.exe是主程序,install文件夹存放要安装的文件,下面是对应表,(区分大小写)带*的是文件夹,带-的可省略,带#号的为可选
 
 ```
 install          要安装的文件 *
-install.exe      主程序
+install2.exe      主程序
 logo.ico         安装程序左上角的logo图标 -
 Title.txt        安装程序的标题 -
 Test.txt         安装程序下方的文本框内容 -
 start.txt        如果用户勾选了安装后运行，那么就将在install文件夹里启动此文件里的程序名所指的程序
-installlogo.png  安装程序中间的大logo
+installlogo.png  安装程序中间的大logo -
+install.exe      如果有在安装时会取代原版安装运行此程序,相当于使用了您的安装脚本 #
 ```
 
 > [!IMPORTANT]
