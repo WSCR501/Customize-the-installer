@@ -8,19 +8,20 @@ Fully customizable installer(可以完全自定义的安装程序)
 下载后解压压缩包,会得到几个文件,其中install.exe是主程序,install文件夹存放要安装的文件,下面是对应表,(区分大小写)带*的是文件夹,带-的可省略
 
 ```
-install    要安装的文件 *
-install.exe 主程序
-logo.ico    安装程序左上角的logo图标 -
-Title.txt   安装程序的标题 -
-Test.txt    安装程序下方的文本框内容 -
-start.txt   如果用户勾选了安装后运行，那么就将在install文件夹里启动此文件里的程序名所指的程序
+install          要安装的文件 *
+install.exe      主程序
+logo.ico         安装程序左上角的logo图标 -
+Title.txt        安装程序的标题 -
+Test.txt         安装程序下方的文本框内容 -
+start.txt        如果用户勾选了安装后运行，那么就将在install文件夹里启动此文件里的程序名所指的程序
+installlogo.png  安装程序中间的大logo
 ```
 
 > [!IMPORTANT]
 > 尽量不要在install中放置文件夹(如果它是重要程序的话)
 
 > [!WARNING]
-> 安装程序未添加文件检测，请确保您已按标准设置
+> 禁止倒卖！
 
 ## 二次封装及打包注意事项
 ```
